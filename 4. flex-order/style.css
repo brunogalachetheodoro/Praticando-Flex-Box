@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ddd;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    flex-direction: row-reverse; 
+}
+
+.box {
+    height: 100px;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.first {
+    background-color: red;
+
+}
+
+.second {
+    background-color: blue;
+
+
+}
+
+.third {
+    background-color: green;
+}
