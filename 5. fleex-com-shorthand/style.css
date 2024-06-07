@@ -12,24 +12,18 @@ body {
 
 .box {
     height: 100px;
-    flex-grow: 1;
-    flex-basis: 300px;
+    flex: 1 1 300px;
+    /* flex: <grow> <shrink> <basis> */
 }
 
 .first {
     background-color: red;
-    order: 3
-
 }
 
 .second {
     background-color: blue;
-    order: 2;
-
-
 }
 
 .third {
     background-color: green;
-    order: 1;
 }
